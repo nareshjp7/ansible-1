@@ -1,7 +1,7 @@
 ---
 # tasks file for jenkins
 
-- name: install one specific version of Apache
+- name: install specific supported version of Java
   yum:
     name: java-1.8.0-openjdk
     state: present
